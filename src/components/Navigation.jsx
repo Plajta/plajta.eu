@@ -3,10 +3,13 @@ import PageContainer from "./containers/PageContainer";
 
 function Logo() {
   return (
-    <div className="flex items-center-safe">
+    <a
+      href="https://github.com/Plajta"
+      className="flex items-center-safe select-none"
+    >
       <LogoMonochrome className="h-12 w-12" />
       <div className="text-white font-mono text-2xl pt-2">Plajta</div>
-    </div>
+    </a>
   );
 }
 
