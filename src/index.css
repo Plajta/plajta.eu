@@ -30,6 +30,10 @@ layer base {
     }
 }
 
+@theme {
+    --breakpoint-xs: 30rem;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
