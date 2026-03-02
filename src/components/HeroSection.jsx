@@ -41,12 +41,12 @@ function TerminalBar() {
 function TerminalContent() {
   return (
     <p className="text-gray-300 text-base xs:text-lg sm:text-2xl text-left font-mono m-4 sm:m-10 ">
-      <span className="text-yellow-500"> dumb@plajta.eu</span> %{" "}
+      <span className="text-yellow-500"> web@plajta.eu</span> %{" "}
       <span className="text-cyan-500">~</span> cat ./whoarewe.txt <br />
       We're a student team that does things like, Open-source hardware and
       software, robotics, embedded systems and humanitarian applications.
       <br />
-      <span className="text-yellow-500"> dumb@plajta.eu</span> %{" "}
+      <span className="text-yellow-500"> web@plajta.eu</span> %{" "}
       <span className="text-cyan-500">~</span>
       <span className="ml-1 inline-block animate-blink"> █</span>
     </p>

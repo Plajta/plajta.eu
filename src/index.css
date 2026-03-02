@@ -32,6 +32,7 @@ layer base {
 
 @theme {
     --breakpoint-xs: 30rem;
+    --font-syncopate: "Syncopate", sans-serif;
 }
 
 @custom-variant dark (&:is(.dark *));

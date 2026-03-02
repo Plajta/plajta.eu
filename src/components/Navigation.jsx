@@ -1,5 +1,6 @@
 import LogoMonochrome from "../assets/logo_monochrome";
 import PageContainer from "./containers/PageContainer";
+import "@fontsource/syncopate/700.css";
 
 function Logo() {
   return (
@@ -8,7 +9,7 @@ function Logo() {
       className="flex items-center-safe select-none"
     >
       <LogoMonochrome className="h-12 w-12" />
-      <div className="text-white font-mono text-2xl pt-2">Plajta</div>
+      <div className="text-white font-syncopate text-2xl pt-2">Plajta</div>
     </a>
   );
 }
