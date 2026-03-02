@@ -10,7 +10,7 @@ const LogoColor = (props) => (
     {...props}
   >
     <style id="style1">
-      {"path{fill:#000}@media (prefers-color-scheme:dark){path{fill:#fff}}"}
+      {"#svg280 path{fill:#000}@media (prefers-color-scheme:dark){#svg280 path{fill:#fff}}"}
     </style>
     <g
       id="g280"

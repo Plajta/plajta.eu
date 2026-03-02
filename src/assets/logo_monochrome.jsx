@@ -10,7 +10,7 @@ const LogoMonochrome = (props) => (
     {...props}
   >
     <style id="style1">
-      {"@media (prefers-color-scheme:dark){path{fill:#fff}}"}
+      {"@media (prefers-color-scheme:dark){#svg280 path{fill:#fff}}"}
     </style>
     <g id="g280" stroke="none" transform="matrix(.1 0 0 -.1 -.503 1279.83)">
       <path
