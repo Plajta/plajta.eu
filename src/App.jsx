@@ -1,13 +1,16 @@
-// import React, { useState } from "react";
-// import { Github, Twitter, Mail, ExternalLink, Menu, X } from "lucide-react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import HeroSection from "./components/HeroSection";
+import Home from "./pages/Home";
+import PlajTime from "./pages/PlajTime";
 
 export default function App() {
   return (
-    <>
+    <Router>
       <Navigation />
-      <HeroSection />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/plajtime" element={<PlajTime />} />
+      </Routes>
+    </Router>
   );
 }

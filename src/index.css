@@ -30,6 +30,10 @@ layer base {
     }
 }
 
+@utility list-dash {
+    @apply before:content-['-'] before:mr-2 before:-ml-0.5 before:text-yellow-500/90;
+}
+
 @theme {
     --breakpoint-xs: 30rem;
     --font-syncopate: "Syncopate", sans-serif;
