@@ -66,8 +66,8 @@ export default function PlajTime() {
 
       {/* --- Architecture Section --- */}
       {/* I hate the contents but the style could be useful */}
-      {/* <section className="relative min-h-screen w-full flex flex-col items-center justify-center snap-start overflow-hidden">
-        <div className="absolute right-0 top-1/2 -translate-y-2/5 w-full h-full opacity-10 pointer-events-none">
+      <section className="relative min-h-screen w-full flex flex-col items-center justify-center snap-start overflow-hidden">
+        <div className="absolute right-0 top-1/2 -translate-y-2/5 w-full h-full opacity-20 pointer-events-none">
           <img
             src="/plajtime-pcb.png"
             alt=""
@@ -75,7 +75,7 @@ export default function PlajTime() {
           />
         </div>
 
-        <div className="absolute right-0 top-1/2 -translate-y-3/5 w-full h-full opacity-10 pointer-events-none">
+        <div className="absolute right-0 top-1/2 -translate-y-3/5 w-full h-full opacity-20 pointer-events-none">
           <img
             src="/plajtime-pcb-aux.png"
             alt=""
@@ -145,7 +145,7 @@ export default function PlajTime() {
             </div>
           </div>
         </PageContainer>
-      </section>*/}
+      </section>
 
       {/* --- Innovation Section --- */}
       {/* <section className="relative min-h-screen w-full flex flex-col items-center justify-center snap-start bg-linear-to-b from-black to-gray-900/20">
